@@ -28,6 +28,7 @@ class MainActivity : AppCompatActivity() {
 
         // When the answer equals "giraffe" then display a correct message using a toast message.
         // Otherwise display an incorrect message.
+        
         if (answer == getString(R.string.giraffe)) {
             Toast.makeText(this, getString(R.string.correct), Toast.LENGTH_LONG).show()
         } else {
