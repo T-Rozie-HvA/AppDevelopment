@@ -15,9 +15,7 @@ class MainActivity : AppCompatActivity() {
         // Set an action when the user clicks on the confirm button.
         btnConfirm.setOnClickListener {
             checkAnswer()
-
         }
-
     }
 
 
